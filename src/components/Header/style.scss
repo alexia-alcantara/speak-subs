@@ -1,0 +1,23 @@
+.header {
+  width: 100%;
+  height: 130px;
+
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  @media #{$BREAKPOIN-DESK} {
+      height: 260px;
+  }
+
+  &__logo {
+    width: 80%;
+
+    @media #{$BREAKPOIN-DESK} {
+        width: 50%;
+    }
+  }
+}

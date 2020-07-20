@@ -1,0 +1,23 @@
+.App {
+  &__container{
+    margin-top: 24px;
+    &__text{
+      text-align: justify;
+    }
+
+    &__subs{
+      font-weight: bold;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      
+      &__count{
+        font-size: 130px;
+      }
+
+      &__label{
+        font-size: 40px;
+      }
+    }
+  }
+}
